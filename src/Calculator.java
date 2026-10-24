@@ -4,7 +4,7 @@ public class Calculator {
     private OperationStrategy strategy;
 
     public Calculator(OperationStrategy strategy) {
-        setStrategy(strategy);
+        this.strategy = Objects.requireNonNull(strategy, "Strategy must not be null");
     }
 
     public void setStrategy(OperationStrategy strategy) {
