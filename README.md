@@ -64,21 +64,3 @@ DEFENSE.md    Russian explanation and short English defense answers
 
 `examples/DivideStrategy.java` and `examples/ExtensionDemo.java` are a complete example. They add division without editing any file in `src/`. Calculator, OperationStrategy, all three original algorithms and Main stay unchanged when adding this extension. The `if` in DivideStrategy rejects a zero divisor; it does not select a strategy.
 
-## Report and UML
-
-- [Markdown report for Moodle](report.md)
-- [PDF preview of the same report](report/Assignment5_Strategy_Report.pdf)
-- [Full-size UML SVG](report/Strategy_Class_Diagram.svg)
-- [UML PNG](report/Strategy_Class_Diagram.png)
-- [UML PDF](report/Strategy_Class_Diagram.pdf)
-- [Editable PlantUML source](report/Strategy_Class_Diagram.puml)
-
-The diagram shows the six core application types in `src/`. Test helpers and the separate division example are outside its stated scope. Its interface realization, navigable association and creation dependencies have different UML arrowheads and line styles.
-
-## Submission
-
-Upload `report.md` and the repository link to Moodle. The Markdown image uses the published repository's PNG URL so it remains accessible outside the repository folder. The report PDF is an additional readable preview. In-class defense is a separate mandatory requirement.
-
-Repository: https://github.com/tnaumovv/assignment5-strategy-pattern
-
-References and preparation assistance are acknowledged in the report.
