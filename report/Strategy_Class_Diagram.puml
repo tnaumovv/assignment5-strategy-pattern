@@ -1,0 +1,43 @@
+@startuml
+' Core application in src/; optional examples and test helpers are omitted.
+skinparam monochrome true
+skinparam shadowing false
+skinparam classAttributeIconSize 0
+skinparam linetype ortho
+skinparam ArrowThickness 1
+skinparam ClassBorderThickness 1
+hide empty fields
+
+class Calculator {
+  - strategy: OperationStrategy
+  + Calculator(strategy: OperationStrategy)
+  + setStrategy(strategy: OperationStrategy): void
+  + calculate(a: double, b: double): double
+}
+
+interface OperationStrategy {
+  + execute(a: double, b: double): double
+}
+
+class AddStrategy {
+  + execute(a: double, b: double): double
+}
+class SubtractStrategy {
+  + execute(a: double, b: double): double
+}
+class MultiplyStrategy {
+  + execute(a: double, b: double): double
+}
+class Main {
+  {static} + main(args: String[]): void
+}
+
+Calculator "0..*" --> "1" OperationStrategy : strategy
+OperationStrategy <|.. AddStrategy
+OperationStrategy <|.. SubtractStrategy
+OperationStrategy <|.. MultiplyStrategy
+Main ..> Calculator : <<Instantiate>>\ncalls methods
+Main ..> AddStrategy : <<Instantiate>>
+Main ..> SubtractStrategy : <<Instantiate>>
+Main ..> MultiplyStrategy : <<Instantiate>>
+@enduml

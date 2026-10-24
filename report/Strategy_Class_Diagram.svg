@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="1280" height="740" preserveAspectRatio="xMinYMin meet" viewBox="0 0 1280 740" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="1280" height="740"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-740)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="1280" height="740" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<polyline points="620 625, 740 625" style="stroke: rgb(6%,6%,6%); stroke-linecap: butt; stroke-width: 1.8; fill: None; fill-rule: evenodd;"/>
+			<polyline points="724 617, 740 625, 724 633" style="stroke: rgb(6%,6%,6%); stroke-linecap: butt; stroke-width: 1.8; fill: None; fill-rule: evenodd;"/>
+			<text x="644.43" y="644" style="font-family: Helvetica; font-size: 20px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,1288) scale(1,-1)">strategy</text>
+			<text x="638" y="597" style="font-family: Helvetica; font-size: 20px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,1194) scale(1,-1)">0..*</text>
+			<text x="719" y="597" style="font-family: Helvetica; font-size: 20px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,1194) scale(1,-1)">1</text>
+			<polyline points="240 380, 240 460, 820 460, 820 540" style="stroke: rgb(6%,6%,6%); stroke-linecap: butt; stroke-width: 1.8; fill: None; fill-rule: evenodd; stroke-dasharray: 8, 6;"/>
+			<polygon points="830 520, 820 540, 810 520" style="stroke: rgb(6%,6%,6%); stroke-linecap: butt; stroke-width: 1.8; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<polyline points="640 380, 640 430, 980 430, 980 540" style="stroke: rgb(6%,6%,6%); stroke-linecap: butt; stroke-width: 1.8; fill: None; fill-rule: evenodd; stroke-dasharray: 8, 6;"/>
+			<polygon points="990 520, 980 540, 970 520" style="stroke: rgb(6%,6%,6%); stroke-linecap: butt; stroke-width: 1.8; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<polyline points="1040 380, 1040 405, 1140 405, 1140 540" style="stroke: rgb(6%,6%,6%); stroke-linecap: butt; stroke-width: 1.8; fill: None; fill-rule: evenodd; stroke-dasharray: 8, 6;"/>
+			<polygon points="1150 520, 1140 540, 1130 520" style="stroke: rgb(6%,6%,6%); stroke-linecap: butt; stroke-width: 1.8; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<polyline points="460 85, 20 85, 20 600, 60 600" style="stroke: rgb(6%,6%,6%); stroke-linecap: butt; stroke-width: 1.8; fill: None; fill-rule: evenodd; stroke-dasharray: 8, 6;"/>
+			<polyline points="44 592, 60 600, 44 608" style="stroke: rgb(6%,6%,6%); stroke-linecap: butt; stroke-width: 1.8; fill: None; fill-rule: evenodd;"/>
+			<text x="147.74" y="128" style="font-family: Helvetica; font-size: 20px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,256) scale(1,-1)">«Instantiate»</text>
+			<text x="143.87" y="101" style="font-family: Helvetica; font-size: 20px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,202) scale(1,-1)">calls methods</text>
+			<polyline points="490 135, 490 190, 240 190, 240 255" style="stroke: rgb(6%,6%,6%); stroke-linecap: butt; stroke-width: 1.8; fill: None; fill-rule: evenodd; stroke-dasharray: 8, 6;"/>
+			<polyline points="248 239, 240 255, 232 239" style="stroke: rgb(6%,6%,6%); stroke-linecap: butt; stroke-width: 1.8; fill: None; fill-rule: evenodd;"/>
+			<text x="307.74" y="203" style="font-family: Helvetica; font-size: 20px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,406) scale(1,-1)">«Instantiate»</text>
+			<polyline points="640 135, 640 255" style="stroke: rgb(6%,6%,6%); stroke-linecap: butt; stroke-width: 1.8; fill: None; fill-rule: evenodd; stroke-dasharray: 8, 6;"/>
+			<polyline points="648 239, 640 255, 632 239" style="stroke: rgb(6%,6%,6%); stroke-linecap: butt; stroke-width: 1.8; fill: None; fill-rule: evenodd;"/>
+			<text x="662.74" y="189" style="font-family: Helvetica; font-size: 20px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,378) scale(1,-1)">«Instantiate»</text>
+			<polyline points="790 135, 790 190, 1040 190, 1040 255" style="stroke: rgb(6%,6%,6%); stroke-linecap: butt; stroke-width: 1.8; fill: None; fill-rule: evenodd; stroke-dasharray: 8, 6;"/>
+			<polyline points="1048 239, 1040 255, 1032 239" style="stroke: rgb(6%,6%,6%); stroke-linecap: butt; stroke-width: 1.8; fill: None; fill-rule: evenodd;"/>
+			<text x="854.74" y="203" style="font-family: Helvetica; font-size: 20px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,406) scale(1,-1)">«Instantiate»</text>
+			<rect x="60" y="500" width="560" height="200" style="stroke: rgb(6%,6%,6%); stroke-linecap: butt; stroke-width: 1.8; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="273.985" y="667" style="font-family: Helvetica-Bold; font-size: 27px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,1334) scale(1,-1)">Calculator</text>
+			<path d="M 60,652 L 620,652 Z" style="stroke: rgb(6%,6%,6%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<text x="76" y="623" style="font-family: Helvetica; font-size: 23px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,1246) scale(1,-1)">- strategy: OperationStrategy</text>
+			<path d="M 60,608 L 620,608 Z" style="stroke: rgb(6%,6%,6%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<text x="76" y="579" style="font-family: Helvetica; font-size: 22px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,1158) scale(1,-1)">+ Calculator(strategy: OperationStrategy)</text>
+			<text x="76" y="549" style="font-family: Helvetica; font-size: 22px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,1098) scale(1,-1)">+ setStrategy(strategy: OperationStrategy): void</text>
+			<text x="76" y="519" style="font-family: Helvetica; font-size: 22px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,1038) scale(1,-1)">+ calculate(a: double, b: double): double</text>
+			<rect x="740" y="540" width="480" height="110" style="stroke: rgb(6%,6%,6%); stroke-linecap: butt; stroke-width: 1.8; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="928.0565" y="625" style="font-family: Helvetica; font-size: 21px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,1250) scale(1,-1)">«interface»</text>
+			<text x="862.226" y="597" style="font-family: Helvetica-Bold; font-size: 27px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,1194) scale(1,-1)">OperationStrategy</text>
+			<path d="M 740,586 L 1220,586 Z" style="stroke: rgb(6%,6%,6%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<text x="754" y="556" style="font-family: Helvetica; font-size: 23px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,1112) scale(1,-1)">+ execute(a: double, b: double): double</text>
+			<rect x="60" y="255" width="360" height="125" style="stroke: rgb(6%,6%,6%); stroke-linecap: butt; stroke-width: 1.8; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="159.7425" y="346" style="font-family: Helvetica-Bold; font-size: 27px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,692) scale(1,-1)">AddStrategy</text>
+			<path d="M 60,330 L 420,330 Z" style="stroke: rgb(6%,6%,6%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<text x="76" y="299" style="font-family: Helvetica; font-size: 23px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,598) scale(1,-1)">+ execute(a: double,</text>
+			<text x="76" y="269" style="font-family: Helvetica; font-size: 23px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,538) scale(1,-1)">    b: double): double</text>
+			<rect x="460" y="255" width="360" height="125" style="stroke: rgb(6%,6%,6%); stroke-linecap: butt; stroke-width: 1.8; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="531.2305" y="346" style="font-family: Helvetica-Bold; font-size: 27px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,692) scale(1,-1)">SubtractStrategy</text>
+			<path d="M 460,330 L 820,330 Z" style="stroke: rgb(6%,6%,6%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<text x="476" y="299" style="font-family: Helvetica; font-size: 23px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,598) scale(1,-1)">+ execute(a: double,</text>
+			<text x="476" y="269" style="font-family: Helvetica; font-size: 23px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,538) scale(1,-1)">    b: double): double</text>
+			<rect x="860" y="255" width="360" height="125" style="stroke: rgb(6%,6%,6%); stroke-linecap: butt; stroke-width: 1.8; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="934.9835" y="346" style="font-family: Helvetica-Bold; font-size: 27px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,692) scale(1,-1)">MultiplyStrategy</text>
+			<path d="M 860,330 L 1220,330 Z" style="stroke: rgb(6%,6%,6%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<text x="876" y="299" style="font-family: Helvetica; font-size: 23px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,598) scale(1,-1)">+ execute(a: double,</text>
+			<text x="876" y="269" style="font-family: Helvetica; font-size: 23px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,538) scale(1,-1)">    b: double): double</text>
+			<rect x="460" y="45" width="370" height="90" style="stroke: rgb(6%,6%,6%); stroke-linecap: butt; stroke-width: 1.8; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="614.247" y="103" style="font-family: Helvetica-Bold; font-size: 27px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,206) scale(1,-1)">Main</text>
+			<path d="M 460,92 L 830,92 Z" style="stroke: rgb(6%,6%,6%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<text x="509.829" y="61" style="font-family: Helvetica; font-size: 23px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,122) scale(1,-1)">+ main(args: String[]): void</text>
+			<path d="M 509.829,57 L 780.171,57 Z" style="stroke: rgb(6%,6%,6%); stroke-linecap: butt; stroke-width: 1.1;"/>
+		</g>
+	</g>
+</svg>
