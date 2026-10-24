@@ -53,7 +53,6 @@ examples/     DivideStrategy and a separate client ExtensionDemo
 tests/        Runnable acceptance checks without a test framework
 report.md     Required Markdown reflection with six numbered sections
 report/       UML PNG, SVG, PDF and editable PlantUML source; report PDF preview
-DEFENSE.md    Russian explanation and short English defense answers
 ```
 
 ## Add a new strategy
