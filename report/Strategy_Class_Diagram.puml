@@ -7,10 +7,11 @@ skinparam linetype ortho
 skinparam ArrowThickness 1
 skinparam ClassBorderThickness 1
 hide empty fields
+hide circle
 
 class Calculator {
   - strategy: OperationStrategy
-  + Calculator(strategy: OperationStrategy)
+  + «Create» Calculator(strategy: OperationStrategy)
   + setStrategy(strategy: OperationStrategy): void
   + calculate(a: double, b: double): double
 }
@@ -32,7 +33,9 @@ class Main {
   {static} + main(args: String[]): void
 }
 
-Calculator "0..*" --> "1" OperationStrategy : strategy
+' The cross explicitly marks the Calculator end as non-navigable.
+' The association and the private attribute depict the same stored reference.
+Calculator "0..*" x--> "1" OperationStrategy : strategy
 OperationStrategy <|.. AddStrategy
 OperationStrategy <|.. SubtractStrategy
 OperationStrategy <|.. MultiplyStrategy

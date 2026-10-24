@@ -13,6 +13,8 @@
 			<rect x="0" y="0" width="1280" height="740" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
 			<polyline points="620 625, 740 625" style="stroke: rgb(6%,6%,6%); stroke-linecap: butt; stroke-width: 1.8; fill: None; fill-rule: evenodd;"/>
 			<polyline points="724 617, 740 625, 724 633" style="stroke: rgb(6%,6%,6%); stroke-linecap: butt; stroke-width: 1.8; fill: None; fill-rule: evenodd;"/>
+			<path d="M 623,630 L 633,620 Z" style="stroke: rgb(6%,6%,6%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 623,620 L 633,630 Z" style="stroke: rgb(6%,6%,6%); stroke-linecap: butt; stroke-width: 1.8;"/>
 			<text x="644.43" y="644" style="font-family: Helvetica; font-size: 20px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,1288) scale(1,-1)">strategy</text>
 			<text x="638" y="597" style="font-family: Helvetica; font-size: 20px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,1194) scale(1,-1)">0..*</text>
 			<text x="719" y="597" style="font-family: Helvetica; font-size: 20px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,1194) scale(1,-1)">1</text>
@@ -40,7 +42,7 @@
 			<path d="M 60,652 L 620,652 Z" style="stroke: rgb(6%,6%,6%); stroke-linecap: butt; stroke-width: 1.8;"/>
 			<text x="76" y="623" style="font-family: Helvetica; font-size: 23px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,1246) scale(1,-1)">- strategy: OperationStrategy</text>
 			<path d="M 60,608 L 620,608 Z" style="stroke: rgb(6%,6%,6%); stroke-linecap: butt; stroke-width: 1.8;"/>
-			<text x="76" y="579" style="font-family: Helvetica; font-size: 22px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,1158) scale(1,-1)">+ Calculator(strategy: OperationStrategy)</text>
+			<text x="76" y="579" style="font-family: Helvetica; font-size: 22px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,1158) scale(1,-1)">+ «Create» Calculator(strategy: OperationStrategy)</text>
 			<text x="76" y="549" style="font-family: Helvetica; font-size: 22px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,1098) scale(1,-1)">+ setStrategy(strategy: OperationStrategy): void</text>
 			<text x="76" y="519" style="font-family: Helvetica; font-size: 22px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,1038) scale(1,-1)">+ calculate(a: double, b: double): double</text>
 			<rect x="740" y="540" width="480" height="110" style="stroke: rgb(6%,6%,6%); stroke-linecap: butt; stroke-width: 1.8; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>

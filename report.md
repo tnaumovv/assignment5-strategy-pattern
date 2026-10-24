@@ -20,12 +20,13 @@ The chosen domain is a calculator. Its algorithm family consists of addition, su
 
 ### UML notation and relationship directions
 
-- **Interface realization:** each concrete strategy points to `OperationStrategy` with a dashed line and a hollow triangular arrowhead. This represents Java `implements`; the triangle points to the interface.
-- **Navigable association:** `Calculator` points to `OperationStrategy` with a solid line and an open arrowhead. The field `strategy` stores that reference. Multiplicity `1` at the interface end means each calculator has exactly one selected strategy. Multiplicity `0..*` at the Calculator end allows a strategy object to be shared by several calculators.
-- **Creation dependencies:** dashed lines with open arrowheads point from `Main` to `Calculator` and the three concrete strategies. The label `«Instantiate»` records the constructor calls; `Main` also calls the Calculator methods.
-- **Visibility and members:** `+` means public and `-` means private. Horizontal compartment lines separate class names, fields and operations. The underlined `main` operation is static. `«interface»` identifies the interface.
+- **Interface realizations (3):** `AddStrategy`, `SubtractStrategy` and `MultiplyStrategy` each point to `OperationStrategy` with a dashed line and a hollow triangular arrowhead. This represents Java `implements`; the triangle points to the interface.
+- **Navigable association (1):** `Calculator` points to `OperationStrategy` with a solid line and an open arrowhead. The small `x` at the Calculator end explicitly excludes reverse navigation: the strategies do not store a Calculator reference. The private field `strategy` and this association are two views of the same reference, not two separate fields.
+- **Multiplicities:** `1` at the interface end means every fully constructed Calculator has exactly one selected strategy; the constructor and setter reject null. `0..*` at the Calculator end means one strategy object can be referenced by zero or more calculators. It does not mean that one calculator stores several strategies.
+- **Creation dependencies (4):** dashed lines with open arrowheads point from `Main` to `Calculator`, `AddStrategy`, `SubtractStrategy` and `MultiplyStrategy`. The standard stereotype `«Instantiate»` records the constructor calls. `Main` also calls the Calculator methods; it stores the Calculator in a local variable, so no persistent association is modeled.
+- **Visibility and members:** `+` means public and `-` means private. Compartments separate names, fields and operations. Underlined `main` is static; `«interface»` identifies the interface. `«Create»` on `Calculator(...)` marks the constructor. Its Java declaration has no written return type.
 
-All relationship lines use the same normal width; thickness adds no meaning here. A lollipop circle is an alternative compact interface notation. The rectangular interface is used to show its operation. No diamond is used: `Calculator` receives externally created, replaceable strategies and does not own their lifetime. [3, sections 7.7.4-7.7.5, 9.2.4, 10.4.4, 11.5.4]
+All relationship lines use the same normal width; thickness adds no meaning here. A lollipop circle is an alternative compact notation for a provided interface. The rectangular interface is used to show its operation. The association models a replaceable reference without whole-part semantics, so no aggregation diamond is needed. No composition diamond is used because exclusive lifetime ownership is absent and a strategy can be shared. [3, sections 7.7.4-7.7.5, 9.4.4, 10.4.4, 11.4.4, 11.5.4-11.5.5]
 
 ### Responsibilities and execution flow
 
