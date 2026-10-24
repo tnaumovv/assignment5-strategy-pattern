@@ -126,7 +126,7 @@ The Strategy pattern keeps Calculator small and independent of concrete operatio
 
 ## 6. Link to the GitHub repository
 
-https://github.com/tnaumovv/assignment5-strategy-pattern
+[https://github.com/tnaumovv/assignment5-strategy-pattern](https://github.com/tnaumovv/assignment5-strategy-pattern)
 
 ### References
 
@@ -139,5 +139,3 @@ https://github.com/tnaumovv/assignment5-strategy-pattern
 [4] Martin, R. C. *Clean Code*, Chapter 10. Prentice Hall, 2008. Course reading reference.
 
 [5] Refactoring.Guru. *State*. https://refactoring.guru/design-patterns/state
-
-**Preparation assistance:** OpenAI ChatGPT/Codex assisted with the example implementation, report and UML. The code was compiled, the examples were executed, and the diagram was checked against the source.
