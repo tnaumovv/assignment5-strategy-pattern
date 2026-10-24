@@ -1,5 +1,5 @@
 @startuml
-' Core application in src/; optional examples and test helpers are omitted.
+' Core application in src/; the separate division example is omitted.
 skinparam monochrome true
 skinparam shadowing false
 skinparam classAttributeIconSize 0

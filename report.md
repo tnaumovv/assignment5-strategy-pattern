@@ -16,7 +16,7 @@ The chosen domain is a calculator. Its algorithm family consists of addition, su
 
 ![UML class diagram of the Calculator Strategy implementation](https://raw.githubusercontent.com/tnaumovv/assignment5-strategy-pattern/main/report/Strategy_Class_Diagram.png)
 
-*Figure 1. The six core application types in `src/`. Tests and the optional division extension are outside this diagram's scope. Full-size [SVG](https://github.com/tnaumovv/assignment5-strategy-pattern/blob/main/report/Strategy_Class_Diagram.svg) and editable [PlantUML](https://github.com/tnaumovv/assignment5-strategy-pattern/blob/main/report/Strategy_Class_Diagram.puml) are included.*
+*Figure 1. The six core application types in `src/`. The separate division example is outside this diagram's scope. Editable [PlantUML](https://github.com/tnaumovv/assignment5-strategy-pattern/blob/main/report/Strategy_Class_Diagram.puml) is included.*
 
 ### UML notation and relationship directions
 
@@ -115,8 +115,6 @@ System.out.println("10 / 5 = " + calculator.calculate(10, 5));
 ```
 
 No file in `src/` needs modification. Only the new algorithm and new client are added; the stable context and interface are reused. This demonstrates the Open/Closed Principle. The divisor check validates input inside one algorithm. [2, 4]
-
-**Verification:** 12 core checks and 5 extension checks pass. They include runtime switching and switching back, delegation to an unknown strategy, operand order, fractional and negative values, null rejection and division by zero. Compilation and execution both use Temurin JDK 17.0.21; `javac --release 17 -Xlint:all` reports no warnings.
 
 ## 4. Strategy vs. State
 
